@@ -12,8 +12,8 @@ ping 8.8.8.8 -n 1
 taskkill /f /im winstore.app.exe
 ipconfig /flushdns >nul
 cls
-echo ½ÐÂI¿ï²M²z¨t²ÎÀÉ®×¡A¨Ã¥þ³¡¤Ä¿ï¡A¦b«ö²M²z
+echo è«‹é»žé¸æ¸…ç†ç³»çµ±æª”æ¡ˆï¼Œä¸¦å…¨éƒ¨å‹¾é¸ï¼Œåœ¨æŒ‰æ¸…ç†
 start cleanmgr.exe
-echo §¹¦¨
-echo «ö¥ô·NÁäÂ÷¶}
+echo å®Œæˆ
+echo æŒ‰ä»»æ„éµé›¢é–‹
 pause >nul
