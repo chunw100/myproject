@@ -1,4 +1,5 @@
 @echo off
+chcp 65001
 (cd /d "%~dp0")&&(NET FILE||(powershell start-process -FilePath '%0' -verb runas)&&(exit /B)) >NUL 2>&1
 cd %temp%
 cd ..
