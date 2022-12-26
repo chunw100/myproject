@@ -9,7 +9,7 @@ rd Download /s /q & cd Download
 cd C:\Windows 
 rd /s /q Prefetch & md Prefetch
 wsreset.exe
-ping 8.8.8.8 -n 1
+ping 127.0.0.1 -n 1 >nul
 taskkill /f /im winstore.app.exe
 ipconfig /flushdns >nul
 cls
